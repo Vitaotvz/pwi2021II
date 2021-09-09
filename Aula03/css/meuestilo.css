@@ -1,0 +1,10 @@
+img {
+    /* width: 320px; largura 
+    height: 650px;   altura */
+    /*    max-width: 320px;           mexe sem alterar a proporção */
+    max-width: 100%;            /* max-width combinado com height: auto cria resposividade*/
+    height: auto;
+    border-radius: 10%;         /* arredonta as bordas da imagem */
+    border: 2px inset #00f;
+    
+}
