@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<hmtl>  
+
+</hmtl>
+<body>
+
+<h2>Criando Formulário</h2>
+
+<form action="/action_page.php">
+    <label for="fname">Digite seu nome:</label><br>
+    <input type="text" id="fname" name="fname">
+    <br><br>
+    <input type="submit" value="Enviar">
+    </form>
+
+<h2>Selecionando o poçante</h2>
+
+<p>Escolha o seu carro para sair dirigindo igual o Toretto</p>
+    <label for="cars">Escolha o seu tunado:</label>
+    <select id="cars" name="cars">
+        <option value="uno">Uno Quadrado</option>
+        <option value="golf">Golf Sapão</option>
+        <option value="chevete" selected>Chevetão</option>
+        <option value="celta">Celta rebaixado</option>
+    </select>
+    <input type="submit">
+
+<h2>Vizualizando as Opções</h2>
+
+<p>Escolha aquele poçante para dar uma de Forza</p>
+
+<form action="/action_page.php">
+    <label for="cars">Escolha o tunado:</label>
+    <select id="cars" name="cars" size="3">
+        <option value="uno">Uno Quadrado</option>
+        <option value="golf">Golf Sapão</option>
+        <option value="chevete">Chevetão</option>
+        <option value="celta">Celta rebaixado</option>
+    </select><br><br>
+    <input type="submit">
+</form>
+
+<h2>Permitir múltiplas opções</h2>
+
+<p>Permite que o usuário escolha mais de uma opção</p>
+
+<form action="/action_page.php">
+    <label for="cars">Escolha o poçante:</label>
+    <select id="cars" name="cars" size="4" multiple>
+        <option value="uno">Uno Quadrado</option>
+        <option value="golf">Golf Sapão</option>
+        <option value="chevete">Chevetão</option>
+        <option value="celta">Celta rebaixado</option>
+    </select><br><br>
+    <input type="submit">
+    </select>
+</form>
+
+<p>Mantenha pressionado o botão "Crtl" para selecionar várias opções</p>
+
+<h2>Textarea</h2>
+
+<p>O elemento textarea define um campo de entrada de várias linhas.</p>
+
+<form action="/action_page.php">
+    <textarea name="message" rows="10" cols="30">Parabéns por escolher o 
+        seu poçante.
+    </textarea>
+    <br><br>
+    <input type="submit">
+</form>
+
+<h2>Área de estilo de texto</h2>
+
+<p>Use o CSS para alterar o tamanho da área de texto:</p>
+
+<form action="/action_page.php">
+    <textarea name="message" style="width:200px; height:600px;">Parabéns 
+    por escolher o seu poçante.</textarea>
+    <br>
+    <input type="submit">
+</form>
+
+<h2>Elemento o botão</h2>
+<button type="button" onclick="alert('Olá Mundo!')">Clique em mim!</button>"
+
+    
+    </form>
+</body>
